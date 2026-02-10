@@ -1,0 +1,17 @@
+.app-layout {
+    min-height: 100vh;
+    /* full screen height */
+    display: flex;
+    flex-direction: column;
+    /* navbar → content → footer */
+}
+
+.page-content {
+    flex: 1;
+    /* takes remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    background-color: #f1f5f9;
+}

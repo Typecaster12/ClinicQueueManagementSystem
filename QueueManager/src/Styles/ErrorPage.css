@@ -1,0 +1,42 @@
+.error-container {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.error-code {
+  font-size: 96px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.error-title {
+  font-size: 28px;
+  margin-top: 10px;
+  color: #1e293b;
+}
+
+.error-text {
+  margin-top: 8px;
+  color: #64748b;
+  font-size: 15px;
+}
+
+.error-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #38bdf8;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.25s ease;
+}
+
+.error-btn:hover {
+  background-color: #0ea5e9;
+}
