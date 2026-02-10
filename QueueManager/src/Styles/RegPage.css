@@ -1,0 +1,67 @@
+.regpage-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 420px;
+    background: white;
+    padding: 28px 26px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 18px;
+    color: #0f172a;
+    font-size: 22px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-size: 14px;
+    color: #334155;
+}
+
+input {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.15);
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 11px;
+    border: none;
+    border-radius: 8px;
+    background: #38bdf8;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.05s ease;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
