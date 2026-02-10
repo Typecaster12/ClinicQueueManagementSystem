@@ -26,7 +26,7 @@ const RegPage = () => {
         //post request;
 
         try {
-            await axios.post("/api/tokens", formData);
+            await axios.post("http://localhost:3000/api/tokens", formData);
             // response handling will be added in next step
         } catch (error) {
             console.error("Error creating token:", error);
